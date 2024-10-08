@@ -89,3 +89,11 @@ footer {
     bottom: 0;
     /* Garante que o rodapé fique na parte inferior */
 }
+
+/* Estiliza o link do rodapé */
+footer a {
+    color: red;
+    /* Texto branco */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
