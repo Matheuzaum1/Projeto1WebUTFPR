@@ -1,0 +1,91 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    /* Define uma fonte padrão */
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 0;
+    /* Remove espaçamentos padrão */
+    background-color: #f4f4f4;
+    /* Define uma cor de fundo clara */
+    color: #333;
+    /* Define a cor do texto */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #333;
+    /* Cor de fundo escura */
+    color: white;
+    /* Cor do texto branca */
+    padding: 10px 0;
+    /* Adiciona espaçamento interno (padding) */
+    text-align: center;
+    /* Centraliza o conteúdo */
+}
+
+/* Estiliza a navegação */
+nav ul {
+    list-style: none;
+    /* Remove marcadores da lista */
+    padding: 0;
+    /* Remove o espaçamento interno */
+}
+
+nav ul li {
+    display: inline;
+    /* Coloca os itens do menu lado a lado */
+    margin: 0 15px;
+    /* Adiciona espaço entre os itens */
+}
+
+nav ul li a {
+    color: white;
+    /* Cor do texto no menu */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+}
+
+/* Estiliza a seção "Sobre" */
+section#sobre {
+    padding: 20px;
+    /* Adiciona espaçamento em torno da seção */
+    background-color: white;
+    /* Fundo branco */
+    margin: 20px auto;
+    /* Adiciona margem superior e inferior, centraliza horizontalmente */
+    max-width: 800px;
+    /* Limita a largura máxima da seção */
+    border-radius: 8px;
+    /* Deixa as bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave em torno da seção */
+}
+
+/* Estiliza o título da seção */
+h1 {
+    color: #333;
+    /* Cor do título */
+    text-align: center;
+    /* Centraliza o título */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #333;
+    /* Fundo escuro */
+    color: white;
+    /* Texto branco */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    position: fixed;
+    /* Fixa o rodapé na parte inferior da página */
+    width: 100%;
+    /* Faz com que o rodapé ocupe toda a largura */
+    bottom: 0;
+    /* Garante que o rodapé fique na parte inferior */
+}
