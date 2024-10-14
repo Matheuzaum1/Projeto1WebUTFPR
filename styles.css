@@ -64,6 +64,14 @@ section#sobre {
     /* Adiciona uma sombra suave em torno da seção */
 }
 
+/* Estiliza o texto da seção "Sobre"*/
+ p {
+    text-align: justify;
+    /* Centraliza o texto e adiciona espaçamento entre as palavras */
+    line-height: 1.5;
+    /* Define a altura de uma linha */
+}
+
 /* Estiliza o título da seção */
 h1 {
     color: #333;
@@ -96,4 +104,147 @@ footer a {
     /* Texto branco */
     text-decoration: none;
     /* Remove o sublinhado dos links */
+}
+
+/* Container flex para alinhar a foto e o texto lado a lado */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente a imagem e o texto */
+    gap: 20px;
+    /* Adiciona um espaço entre a imagem e o texto */
+}
+
+/* Estiliza o texto dentro da seção "Sobre" */
+.sobre-texto {
+    max-width: 600px;
+    /* Limita a largura do texto */
+    text-align: justify;
+    /* Justifica o texto */
+}
+
+.sobre-container img {
+    border-radius: 50%;
+    /* Deixa a foto redonda */
+    object-fit: cover;
+    /* Ajusta a imagem para que ela preencha o espaço */
+}
+
+footer p {
+    text-align: center;
+    /* Centraliza o texto dentro do rodapé */
+    margin: 0;
+    /* Remove qualquer margem extra */
+}
+
+
+/* Estiliza a seção de contato */
+#contato {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o título da seção de contato */
+#contato h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0073b1; /* Um azul claro para destacar o título */
+    font-size: 24px;
+}
+
+/* Estiliza os campos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estiliza os campos de entrada de texto e número */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilo ao focar nos campos */
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #0073b1;
+    outline: none;
+}
+
+/* Estiliza o botão de enviar */
+input[type="submit"] {
+    padding: 10px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Mudança de cor ao passar o mouse no botão */
+input[type="submit"]:hover {
+    background-color: #005f8a;
+}
+
+/* Estiliza o checkbox */
+label[for="termos"] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Ajustes de espaçamento e estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
+
+/* Responsividade: melhora a aparência em telas menores */
+@media (max-width: 600px) {
+    #contato {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
