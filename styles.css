@@ -100,7 +100,7 @@ footer {
 
 /* Estiliza o link do rodapé */
 footer a {
-    color: red;
+    color: white;
     /* Texto branco */
     text-decoration: none;
     /* Remove o sublinhado dos links */
@@ -167,6 +167,7 @@ label {
     color: #333;
     font-weight: bold;
 }
+
 
 /* Estiliza os campos de entrada de texto e número */
 input[type="text"],
@@ -247,4 +248,14 @@ footer {
         font-size: 14px;
         padding: 8px;
     }
+}
+
+/* Estiliza o campo de email */
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
 }
