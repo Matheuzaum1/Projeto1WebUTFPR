@@ -259,3 +259,21 @@ input[type="email"] {
     font-size: 16px;
     transition: border-color 0.3s ease;
 }
+
+/* estiliza a imagem de portifolio */
+.imagem-portifolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mudou de left para center */
+    transform: scale(0.8); /* Mudou de scale para transform */
+    margin: 20px auto; /* Adicionou uma margem de 20px */
+    border-radius: 10px; /* Adicionou um arredondamento nas bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adicionou uma sombra leve */
+  }
+
+  /*Estiliza o texto de descrição da imagem de portifolio*/
+  .imagem-portifolio p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
