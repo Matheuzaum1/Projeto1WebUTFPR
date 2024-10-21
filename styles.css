@@ -1,16 +1,19 @@
-/* Estiliza o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    /* Define uma fonte padrão */
-    margin: 0;
-    /* Remove margens padrão */
-    padding: 0;
-    /* Remove espaçamentos padrão */
-    background-color: #f4f4f4;
-    /* Define uma cor de fundo clara */
-    color: #333;
-    /* Define a cor do texto */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/gotham.woff2') format('woff2'),
+         url('assets/fonts/gotham.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    font-family: 'Gotham', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
 
 /* Estiliza o cabeçalho */
 header {
@@ -259,21 +262,3 @@ input[type="email"] {
     font-size: 16px;
     transition: border-color 0.3s ease;
 }
-
-/* estiliza a imagem de portifolio */
-.imagem-portifolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Mudou de left para center */
-    transform: scale(0.8); /* Mudou de scale para transform */
-    margin: 20px auto; /* Adicionou uma margem de 20px */
-    border-radius: 10px; /* Adicionou um arredondamento nas bordas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adicionou uma sombra leve */
-  }
-
-  /*Estiliza o texto de descrição da imagem de portifolio*/
-  .imagem-portifolio p {
-    text-align: center;
-    font-size: 14px;
-    color: #333;
-  }

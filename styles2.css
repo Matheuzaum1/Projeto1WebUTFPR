@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/gotham.woff2') format('woff2'),
+         url('assets/fonts/gotham.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gotham', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #333;
+    /* Cor de fundo escura */
+    color: white;
+    /* Cor do texto branca */
+    padding: 10px 0;
+    /* Adiciona espaçamento interno (padding) */
+    text-align: center;
+    /* Centraliza o conteúdo */
+}
+
+/* Estiliza a navegação */
+nav ul {
+    list-style: none;
+    /* Remove marcadores da lista */
+    padding: 0;
+    /* Remove o espaçamento interno */
+}
+
+nav ul li {
+    display: inline;
+    /* Coloca os itens do menu lado a lado */
+    margin: 0 15px;
+    /* Adiciona espaço entre os itens */
+}
+
+nav ul li a {
+    color: white;
+    /* Cor do texto no menu */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+}
+/* Estiliza o rodapé */
+footer {
+    background-color: #333;
+    /* Fundo escuro */
+    color: white;
+    /* Texto branco */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    position: fixed;
+    /* Fixa o rodapé na parte inferior da página */
+    width: 100%;
+    /* Faz com que o rodapé ocupe toda a largura */
+    bottom: 0;
+    /* Garante que o rodapé fique na parte inferior */
+}
+
+/* Estiliza o link do rodapé */
+footer a {
+    color: white;
+    /* Texto branco */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+/*estiliza o titulo da pagina*/
+h1 {
+    color: #333;
+    /* Cor do título */
+    text-align: center;
+    /* Centraliza o título */
+}
+
