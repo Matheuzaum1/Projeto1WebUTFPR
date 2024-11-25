@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-   
+
 </head>
+
 <body>
     <header>
         <nav>
@@ -24,48 +26,102 @@
         <h1>Meu Portfólio</h1>
         <div class="portfolio-grid">
             <div class="portfolio-item">
-                <img src="assets/images/image1.jpg" alt="Projeto 1">
+                <div class="video-container">
+                    <img src="assets/images/Kequing.jpg" alt="Projeto 1">
+                    <video src="assets/videos/kequing.mp4" muted loop></video>
+                </div>
                 <h3>Projeto 1</h3>
                 <p>Descrição breve do projeto 1.</p>
             </div>
             <div class="portfolio-item">
-                <img src="assets/images/image2.jpg" alt="Projeto 2">
+                <div class="video-container">
+                    <img src="assets/images/kaeya.jpg" alt="Projeto 2">
+                    <video src="assets/videos/kaeya.mp4" muted loop></video>
+                </div>
                 <h3>Projeto 2</h3>
                 <p>Descrição breve do projeto 2.</p>
             </div>
             <div class="portfolio-item">
-                <img src="assets/images/image3.jpg" alt="Projeto 3">
+                <div class="video-container">
+                    <img src="assets/images/jean.jpg" alt="Projeto 3">
+                    <video src="assets/videos/jean.mp4" muted loop></video>
+                </div>
                 <h3>Projeto 3</h3>
                 <p>Descrição breve do projeto 3.</p>
             </div>
         </div>
+        
+</div>
     </section>
 
-    <section id="pricing">
-        <h2>Tabela de Preços</h2>
+    <section id="developer-info">
+        <h2>Sobre Meu Trabalho como Desenvolvedor de Jogos</h2>
+        <p>
+            Tenho experiência no desenvolvimento de jogos interativos e envolventes, 
+            com foco na criação de mecânicas inovadoras e narrativas imersivas. 
+            Trabalho em equipes multidisciplinares para entregar produtos de alta qualidade, 
+            alinhados às expectativas dos jogadores e do mercado.
+        </p>
+    
+        <h3>Meus Trabalhos</h3>
+        <table class="experience-table">
+            <thead>
+                <tr>
+                    <th>Função</th>
+                    <th>Empresa</th>
+                    <th>Jogo Desenvolvido</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Game Designer</td>
+                    <td>Studio XYZ</td>
+                    <td>Galaxy Quest</td>
+                </tr>
+                <tr>
+                    <td>Programador</td>
+                    <td>Indie Studio</td>
+                    <td>Pixel Adventures</td>
+                </tr>
+                <tr>
+                    <td>UI/UX Designer</td>
+                    <td>GameDev Co.</td>
+                    <td>Fantasy World</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h3>Tabela de Preços para Serviços Freelance</h3>
         <table class="price-table">
-            <tr>
-                <th>Serviço</th>
-                <th>Descrição</th>
-                <th>Preço</th>
-            </tr>
-            <tr>
-                <td>Desenvolvimento de Jogos</td>
-                <td>Criação de experiências interativas e envolventes</td>
-                <td>A partir de R$5000</td>
-            </tr>
-            <tr>
-                <td>Montagem de Sites</td>
-                <td>Desenvolvimento de sites personalizados e responsivos</td>
-                <td>A partir de R$2000</td>
-            </tr>
-            <tr>
-                <td>Design Gráfico</td>
-                <td>Criação de identidades visuais e materiais promocionais</td>
-                <td>A partir de R$1000</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Desenvolvimento de Jogos</td>
+                    <td>Criação de experiências interativas e envolventes</td>
+                    <td>A partir de R$5000</td>
+                </tr>
+                <tr>
+                    <td>Montagem de Sites</td>
+                    <td>Desenvolvimento de sites personalizados e responsivos</td>
+                    <td>A partir de R$2000</td>
+                </tr>
+                <tr>
+                    <td>Design Gráfico</td>
+                    <td>Criação de identidades visuais e materiais promocionais</td>
+                    <td>A partir de R$1000</td>
+                </tr>
+            </tbody>
         </table>
     </section>
+    
+
+
 
     <footer>
         <p>&copy; 2024 Meu Portfólio</p>
@@ -80,5 +136,6 @@
         </a>
     </footer>
 </body>
-</html>
+<script src="assets/scripts.js"></script>
 
+</html>
