@@ -14,6 +14,18 @@ body {
     color: #333;
 }
 
+/* Garante que o conteúdo ocupe o mínimo de espaço para "empurrar" o rodapé */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da janela */
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Permite que o conteúdo principal ocupe o espaço disponível */
+}
+
 
 /* Estiliza o cabeçalho */
 header {
@@ -86,19 +98,13 @@ h1 {
 /* Estiliza o rodapé */
 footer {
     background-color: #333;
-    /* Fundo escuro */
     color: white;
-    /* Texto branco */
     text-align: center;
-    /* Centraliza o conteúdo */
     padding: 10px 0;
-    /* Espaçamento interno */
-    position: fixed;
-    /* Fixa o rodapé na parte inferior da página */
+    position: relative; /* Alterado para relative */
     width: 100%;
-    /* Faz com que o rodapé ocupe toda a largura */
-    bottom: 0;
-    /* Garante que o rodapé fique na parte inferior */
+    font-size: 14px;
+    margin-top: 20px; /* Adiciona espaço entre o conteúdo e o rodapé */
 }
 
 /* Estiliza o link do rodapé */
